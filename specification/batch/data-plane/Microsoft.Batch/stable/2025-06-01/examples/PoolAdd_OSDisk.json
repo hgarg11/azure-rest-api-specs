@@ -16,9 +16,9 @@
         "osDisk": {
           "diskSizeGB": 100,
           "managedDisk": {
-            "storageAccountType": "StandardSSD_LRS"
+            "storageAccountType": "standardssd_lrs"
           },
-          "caching": "ReadWrite",
+          "caching": "readwrite",
           "ephemeralOSDiskSettings": {
             "placement": "CacheDisk"
           }

@@ -28,7 +28,7 @@
         "enableInterNodeCommunication": false,
         "taskSlotsPerNode": 1,
         "taskSchedulingPolicy": {
-          "nodeFillType": "Spread"
+          "nodeFillType": "spread"
         },
         "virtualMachineConfiguration": {
           "imageReference": {
@@ -42,7 +42,7 @@
             "enableAutomaticUpdates": false
           },
           "nodePlacementConfiguration": {
-            "policy": "Zonal"
+            "policy": "zonal"
           }
         },
         "currentNodeCommunicationMode": "classic",

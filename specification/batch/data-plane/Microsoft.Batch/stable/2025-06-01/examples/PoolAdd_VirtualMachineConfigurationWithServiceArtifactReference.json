@@ -24,7 +24,7 @@
       },
       "targetDedicatedNodes": 2,
       "upgradePolicy": {
-        "mode": "Automatic",
+        "mode": "automatic",
         "automaticOSUpgradePolicy": {
           "enableAutomaticOSUpgrade": true
         }

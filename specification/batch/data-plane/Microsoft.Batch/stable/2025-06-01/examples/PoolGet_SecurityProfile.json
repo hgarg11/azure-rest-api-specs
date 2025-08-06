@@ -12,13 +12,13 @@
         "id": "mypool001",
         "url": "https://account.region.batch.azure.com/pools/pool",
         "eTag": "0x8DB6CA2DFF530D1",
-        "lastModified": "2024-08-28T06:45:00.0946897Z",
-        "creationTime": "2024-08-28T06:45:00.0946897Z",
+        "lastModified": "2023-06-14T06:45:00.0946897Z",
+        "creationTime": "2023-06-14T06:45:00.0946897Z",
         "state": "active",
-        "stateTransitionTime": "2024-08-28T06:45:00.0946897Z",
+        "stateTransitionTime": "2023-06-14T06:45:00.0946897Z",
         "allocationState": "steady",
-        "allocationStateTransitionTime": "2024-08-28T06:45:59.4770341Z",
-        "vmSize": "standard_d4s_v3",
+        "allocationStateTransitionTime": "2023-06-14T06:45:59.4770341Z",
+        "vmSize": "standard_dc2s_v2",
         "resizeTimeout": "PT15M",
         "currentDedicatedNodes": 1,
         "targetDedicatedNodes": 1,
@@ -28,18 +28,18 @@
         "enableInterNodeCommunication": false,
         "taskSlotsPerNode": 1,
         "taskSchedulingPolicy": {
-          "nodeFillType": "Spread"
+          "nodeFillType": "spread"
         },
         "virtualMachineConfiguration": {
           "imageReference": {
-            "publisher": "canonical",
-            "offer": "ubuntu-24_04-lts",
-            "sku": "server",
+            "publisher": "Canonical",
+            "offer": "UbuntuServer",
+            "sku": "18_04-lts-gen2",
             "version": "latest"
           },
-          "nodeAgentSKUId": "batch.node.ubuntu 24.04",
+          "nodeAgentSKUId": "batch.node.ubuntu 18.04",
           "securityProfile": {
-            "securityType": "trustedlaunch",
+            "securityType": "trustedLaunch",
             "encryptionAtHost": true,
             "uefiSettings": {
               "secureBootEnabled": false

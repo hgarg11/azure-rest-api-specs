@@ -18,13 +18,13 @@
           "enableAutomaticUpdates": false
         },
         "nodePlacementConfiguration": {
-          "policy": "Zonal"
+          "policy": "zonal"
         },
         "nodeAgentSKUId": "batch.node.windows amd64"
       },
       "targetDedicatedNodes": 2,
       "upgradePolicy": {
-        "mode": "Automatic",
+        "mode": "automatic",
         "automaticOSUpgradePolicy": {
           "disableAutomaticRollback": true,
           "enableAutomaticOSUpgrade": true,

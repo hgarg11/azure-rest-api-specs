@@ -1,22 +1,22 @@
 {
   "parameters": {
     "batchUrl": "account.region.batch.azure.com",
-    "api-version": "2025-06-01",
+    "api-version": "2024-07-01.20.0",
     "client-request-id": "00000000-0000-0000-0000-000000000000",
-    "ocp-date": "Wed, 28 Aug 2024 06:39:01 GMT",
+    "ocp-date": "Wed, 14 Jun 2023 06:39:01 GMT",
     "pool": {
       "id": "mypool001",
-      "vmSize": "STANDARD_D4S_V3",
+      "vmSize": "STANDARD_DC2s_V2",
       "virtualMachineConfiguration": {
         "imageReference": {
-          "publisher": "canonical",
-          "offer": "ubuntu-24_04-lts",
-          "sku": "server",
+          "publisher": "Canonical",
+          "offer": "UbuntuServer",
+          "sku": "18_04-lts-gen2",
           "version": "latest"
         },
-        "nodeAgentSKUId": "batch.node.ubuntu 24.04",
+        "nodeAgentSKUId": "batch.node.ubuntu 18.04",
         "securityProfile": {
-          "securityType": "TrustedLaunch",
+          "securityType": "trustedLaunch",
           "encryptionAtHost": true,
           "uefiSettings": {
             "secureBootEnabled": false,

@@ -28,7 +28,7 @@
         "enableInterNodeCommunication": false,
         "taskSlotsPerNode": 1,
         "taskSchedulingPolicy": {
-          "nodeFillType": "Spread"
+          "nodeFillType": "spread"
         },
         "virtualMachineConfiguration": {
           "imageReference": {
@@ -45,7 +45,7 @@
               "storageAccountType": "standardssd_lrs"
             },
             "diskSizeGB": 100,
-            "caching": "ReadWrite"
+            "caching": "readwrite"
           },
           "nodeAgentSKUId": "batch.node.ubuntu 20.04"
         },
