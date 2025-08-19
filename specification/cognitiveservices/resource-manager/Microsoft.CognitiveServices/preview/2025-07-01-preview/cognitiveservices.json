@@ -2624,7 +2624,7 @@
           "200": {
             "description": "Added the moderation terms successfully.",
             "schema": {
-              "$ref": "#/definitions/RaiModerationlist"
+              "$ref": "#/definitions/RaiModerationListTermsResult"
             }
           },
           "default": {
