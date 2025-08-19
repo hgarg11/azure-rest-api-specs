@@ -8521,7 +8521,7 @@
     },
     "RaiModerationTermsBulkAddRequest": {
       "description": "The list of Rai Moderation Terms for batch add.",
-      "type": "array",
+      "type": "object",
       "items": {
         "$ref": "#/definitions/RaiModerationTermBulkRequest"
       },
