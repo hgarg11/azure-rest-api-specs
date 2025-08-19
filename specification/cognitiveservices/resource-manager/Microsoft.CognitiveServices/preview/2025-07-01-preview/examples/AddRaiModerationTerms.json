@@ -25,12 +25,48 @@
   "responses": {
     "200": {
       "body": {
-        "name": "myModerationlist",
-        "properties": {
-          "description": "Brief description of the moderation list",
-          "moderationType": "PUBLIC_FIGURE"
-        },
-        "etag": "\"00000000-0000-0000-0000-000000000000\""
+        "value": [
+          {
+            "name": "myTerm1",
+            "type": "Microsoft.CognitiveServices/accounts/raiModerationLists/raiModerationTerms",
+            "systemData": {
+              "createdBy": "user@contoso.com",
+              "createdByType": "User",
+              "createdAt": "2025-06-01T00:00:00Z",
+              "lastModifiedBy": "user@contoso.com",
+              "lastModifiedByType": "User",
+              "lastModifiedAt": "2025-06-10T00:00:00Z"
+            },
+            "etag": "\"2000-AAAA\"",
+            "tags": {
+              "env": "test"
+            },
+            "properties": {
+              "term": "Some_Public_Figure",
+              "isAddition": true
+            }
+          },
+          {
+            "name": "myTerm2",
+            "type": "Microsoft.CognitiveServices/accounts/raiModerationLists/raiModerationTerms",
+            "systemData": {
+              "createdBy": "user@contoso.com",
+              "createdByType": "User",
+              "createdAt": "2025-06-01T00:00:00Z",
+              "lastModifiedBy": "user@contoso.com",
+              "lastModifiedByType": "User",
+              "lastModifiedAt": "2025-06-10T00:00:00Z"
+            },
+            "etag": "\"2000-AAAA\"",
+            "tags": {
+              "env": "test"
+            },
+            "properties": {
+              "term": "Another_Public_Figure",
+              "isAddition": true
+            }
+          }
+        ]
       }
     }
   }
